@@ -2,6 +2,7 @@ package config
 
 import (
 	"log"
+
 	"github.com/spf13/viper"
 )
 
@@ -14,7 +15,7 @@ type Config struct {
 	}
 	App struct {
 		Name string
-		Port int
+		Port string
 	}
 }
 
